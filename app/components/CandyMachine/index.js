@@ -234,10 +234,10 @@ const CandyMachine = ({ walletAddress }) => {
 
     return (
         <div className="machine-container">
-            <p>Drop Date:</p>
-            <p>Items Minted:</p>
-            <button className="cta-button mint-button" onClick={mintToken}>
-                Mint NFT
+            <p>ELection</p>
+            <p>Pick electorate</p>
+            <button className="cta-button mint-button" onClick={pickElectorate}>
+                vote candidate
             </button>
         </div>
     );
